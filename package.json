@@ -1,0 +1,22 @@
+{
+  "name": "@sil/format",
+  "version": "0.0.1",
+  "description": "Format it All",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsup --dts"
+  },
+  "keywords": [
+    "Format",
+    "typescript"
+  ],
+  "author": "Sil van Diepen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "tsup": "^7.1.0"
+  }
+}
