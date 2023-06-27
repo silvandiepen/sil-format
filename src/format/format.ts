@@ -30,6 +30,7 @@ export const format = (
     h: obj.hours,
     YY: obj.year,
     Y: (obj_padded.year as string).substring(2, 4),
+    ...opts.replace
   };
 
   let template = opts.template;

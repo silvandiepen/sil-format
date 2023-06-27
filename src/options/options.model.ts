@@ -5,4 +5,7 @@ export interface Options {
   language: Language;
   index: number;
   padded: boolean;
+  replace: { 
+    [key:string]: string;
+  }
 }

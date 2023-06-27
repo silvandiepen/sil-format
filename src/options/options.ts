@@ -5,5 +5,6 @@ export const defaultOptions: Options = {
   language: Language.EN,
   index: -1,
   padded: false,
-  template: 'YY-MM-DD hh:mm:ss'
+  template: "YY-MM-DD hh:mm:ss",
+  replace: {},
 };

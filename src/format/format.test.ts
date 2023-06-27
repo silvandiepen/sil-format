@@ -15,4 +15,22 @@ describe("format", () => {
       })
     ).toEqual("2017-04-05 00:00:00");
   });
+
+  it("Format with custom replacers", () => {
+    expect(
+      format(
+        {
+          day: 5,
+          month: 4,
+          year: 2017,
+        },
+        {
+          template: "YY-XX",
+          replace: {
+            XX: "test",
+          },
+        }
+      )
+    ).toEqual("2017-test");
+  });
 });
