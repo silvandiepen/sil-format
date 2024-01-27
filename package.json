@@ -1,6 +1,6 @@
 {
   "name": "@sil/format",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Format it All",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
