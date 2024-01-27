@@ -2,10 +2,19 @@
   "name": "@sil/format",
   "version": "0.0.3",
   "description": "Format it All",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "test": "jest",
-    "build": "tsup --dts"
+    "build": "tsup --format cjs,esm  --dts  --clean"
   },
   "keywords": [
     "Format",
